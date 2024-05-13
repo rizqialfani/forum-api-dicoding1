@@ -17,7 +17,7 @@ jobs:
   
     services:
       postgres:
-        image: postgres
+        image: root
         env:
           POSTGRES_PASSWORD: ${{ secrets.PGPASSWORD_TEST }}
           POSTGRES_DB: ${{ secrets.PGDATABASE_TEST }}
